@@ -30,6 +30,26 @@ table uploads, run from cdp-client-02:
 ## Authors and acknowledgment
 Nicholas Kovacs, Brian Mann, Kristine Lacek, Norman Hassell, Matthew Wersebe, Sam Shepard have all made meaningful contributions to this project in the form of contributing code that was either used directly as noted under the shebang in each file or modified for this purpose.
 
+Google Deepmind's AlphaFold2 is deployed for generating high confidence structural predictions for influenza antigenic proteins.
+https://github.com/google-deepmind/alphafold
+https://www.schrodinger.com/products/glide
+
+Schrodinger prepwizard is used to optimize structures and prepare for dockings. The Glide program is deployed for sialic acid dockings to predicted hemagglutinin structures.
+https://www.schrodinger.com/science-articles/protein-preparation-wizard
+
+
+To calculate the intermolecular contacts, the Stanford Getcontacts project is deployed. 
+https://getcontacts.github.io/
+
+Baker Lab's Rosetta is used to calculate the stability of proteins run in the pipeline.
+https://new.rosettacommons.org/docs/latest/Home
+
+Nicholas Kovacs (CDC) developed the glycosylation distance calculator.
+
+Norman Hassell (CDC) wrote the SQL for generating the variants of interest.
+
+Nicole Paterson (STI/CDC) developed the automated pipeline.
+
 ## License
 open source
 
