@@ -108,8 +108,8 @@ run -FROM psp piper.py -jobname $filename_dock -receptor prep_7TZ5.pdb -receptor
 #Runs the pipeline in order
 for file in $pdb_dir/*.pdb;
 do
-#echo $timestamp "RUNNING PREPWIZARD"
-#run_prepwizard || die
+echo $timestamp "RUNNING PREPWIZARD"
+run_prepwizard 
 done
 
 for file in $pdb_dir/prep*.pdb
